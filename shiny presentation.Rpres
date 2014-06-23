@@ -1,0 +1,35 @@
+Visualizing a Few Distributions
+========================================================
+author: Nathan Menton
+date: 23 June 2014
+
+Distributions
+========================================================
+
+This is a very simple application which displays a density curve with the following user-defined characteristics:
+
+- Type of distribution (Normal, Uniform, Lognormal)
+- Mean and Standard Deviation
+- Minimum and Maximum X values to be displayed
+
+Graphs will update when the 'Submit Values' button is clicked
+
+Warning messages
+========================================================
+
+All inputs are numeric and warning messages will appear if the following inputs are entered:
+
+- Standard Deviation is less than zero
+- Maximum X value is less than minimum X value
+
+A Bug!
+========================================================
+
+One unresolved issue is that a warning message will not appear if you enter a non-positive mean for the Lognormal distribution.
+
+Remember the mathematical rules about logarithms and your graphs will be sensible
+
+
+Good Luck!!
+========================================================
+
